@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7446e166fecc3e047b313bc21473cf8d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blood Lust
+  fontNames:
+  - Blood Lust
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 19cd8454e8242e44081c35d4471f9eaa, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
