@@ -21,11 +21,13 @@ public class OnMouseOverBounce : MonoBehaviour, IPointerEnterHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         buttonAnim.Play("Bounce");
+        buttonAnim.SetBool("IsHovering", true);
         cardPackAnim.Play("BreakOpen");
     }
 
    public void OnPointerExit(PointerEventData eventData)
     {
+        buttonAnim.SetBool("IsHovering", false);
         buttonAnim.Play("Idle");
     }
 
