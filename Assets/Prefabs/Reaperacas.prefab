@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 224780282246908538}
   - component: {fileID: 225586443114734424}
   - component: {fileID: 95492876554551044}
+  - component: {fileID: 114141095286994686}
   m_Layer: 0
   m_Name: Reaperacas
   m_TagString: Untagged
@@ -256,7 +257,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366371549954354}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0025a49934ee04f16a4d9f794a667706, type: 2}
   m_CullingMode: 0
@@ -379,6 +380,17 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &114141095286994686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1366371549954354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e7249dba3104b49804dcc6a9c0dd5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114203664002922804
 MonoBehaviour:
   m_ObjectHideFlags: 1

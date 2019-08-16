@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+       
 	}
 
     public void SpawnCards()
@@ -36,8 +36,8 @@ public class GameManager : MonoBehaviour {
                     {
                         var spawnCard = Instantiate(card, spawnPoints[j].transform.position, Quaternion.identity) as GameObject;
                         spawnCard.transform.SetParent(canvas.transform);
-                        var playCardAnim = spawnCard.GetComponent<Animator>();
-                        playCardAnim.Play("newCard");
+                        Animator playCardAnim = spawnCard.GetComponent<Animator>();
+                        playCardAnim.Play("CardAnim");
 
                         i++;
                         j++;
